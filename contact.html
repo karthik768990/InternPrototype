@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Explore Japan</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Get in touch with us to start planning your dream trip to Japan.">
+</head>
+<body>
+    <!-- Navigation Area -->
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Explore<span>Japan</span></a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle Navigation Menu">
+                <span></span>
+            </label>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="culture.html">Culture</a></li>
+                    <li><a href="tips.html">Tips</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Hero -->
+        <section class="hero hero-sm" style="background-image: url('https://images.unsplash.com/photo-1542051812871-7575058e4e2f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');">
+            <div class="hero-content">
+                <h1>Contact Us</h1>
+                <p>Have questions? We'd love to hear from you and help plan your journey.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="form-container">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Thank you! Your message has been sent. (This is a static demo)');">
+                        
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" class="form-control" required placeholder="John Doe">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-control" required placeholder="john@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="destination">Destination Interest</label>
+                            <select id="destination" name="destination" class="form-control">
+                                <option value="general">General Inquiry</option>
+                                <option value="tokyo">Tokyo</option>
+                                <option value="kyoto">Kyoto</option>
+                                <option value="osaka">Osaka</option>
+                                <option value="hokkaido">Hokkaido</option>
+                                <option value="fuji">Mount Fuji</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" class="form-control" required placeholder="How can we help you?"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Area -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Explore<span>Japan</span></h3>
+                    <p>Your ultimate guide to planning the perfect trip to Japan. Discover destinations, learn the culture, and get essential travel tips.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="culture.html">Culture</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">FB</a>
+                        <a href="#" aria-label="Twitter">TW</a>
+                        <a href="#" aria-label="Instagram">IG</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Explore Japan. Designed for COM4014 Assignment.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
