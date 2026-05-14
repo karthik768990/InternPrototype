@@ -33,3 +33,5 @@ The code is written to strictly adhere to the W3C standards.
 - **HTML5 Validation:** All `.html` files conform to standard HTML5 structure. Elements are correctly nested, void elements properly utilized, and there are no deprecated tags.
 - **CSS3 Validation:** The `style.css` uses modern CSS variables (`:root`), Flexbox, CSS Grid, media queries, and transition animations securely. No non-standard or proprietary prefixes are heavily relied upon.
 - **Readability:** Code is cleanly indented and organized. The single `style.css` is separated into logical sections (Reset, Typography, Navigation, Hero, Cards, Forms, Footer, Media Queries) with large comment blocks for easy grading.
+
+Live site : [Arden](https://ardens-prototype.vercel.app/)
